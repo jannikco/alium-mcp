@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "version": "1.0.0",
+  "product": "pipmcp",
+  "credential": "PIPMCP_API_KEY",
+  "skills": [
+    {
+      "name": "pipmcp-alium",
+      "description": "Connect AI agents to Alium using one PipMCP API key and actual hosted tool discovery."
+    }
+  ],
+  "files": {
+    "skills/pipmcp-alium/SKILL.md": "b70cd2d274c9e7bf68a7e5795f20a1e0718af7f1696bcdf381414b0fdb5b6ab2"
+  }
+}
