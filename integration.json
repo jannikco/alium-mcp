@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "status": "ready",
+  "verification": "mock-only",
+  "releaseEligible": true,
+  "maintainer": "jannikco",
+  "license": "MIT",
+  "sourceRevision": "4cc7f7e8754a786a5adbde7f08059a897d0cd53ff30e4b0b39c2aad12fd89f5a",
+  "evidence": [
+    "Source-backed provider setup metadata",
+    "Offline configuration and MCP protocol tests"
+  ],
+  "provenance": [
+    "https://docs.alium.io/api/"
+  ],
+  "id": "alium-mcp",
+  "kind": "mcp-setup",
+  "product": "pipmcp",
+  "title": "Alium MCP setup and connection checker",
+  "description": "Generate Alium MCP client configuration, inspect available tools and validate hosted endpoint access through PipMCP.",
+  "operationIds": [],
+  "appSlug": "alium",
+  "appName": "Alium",
+  "providerDocs": "https://docs.alium.io/api/",
+  "providerWebsite": "https://www.alium.io/",
+  "authentication": {
+    "type": "api_key_header",
+    "requiredCredentialFields": [
+      "api_key"
+    ],
+    "requiredHeaderNames": [],
+    "helpUrl": "https://docs.alium.io/api/authentication/",
+    "tenantRequired": false,
+    "accountParameterNames": []
+  },
+  "attributionSlug": "github-alium-mcp"
+}
